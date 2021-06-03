@@ -1,5 +1,5 @@
 const names = [
-    "Maria Paula Frias Campos", "Maria Paula","Maria" , "Maria Paula Frias", "Maria Paula Campos", "Henrique Brasil", "Henrique", "Henrique Sousa", "Henrique Brasil Sousa",
+    "Maria Paula Frias Campos", "Maria Paula","Maria" , "Maria Paula Frias", "Maria Paula Campos", "Henrique Brasil", "Henrique", "Henrique Sousa", "Henrique Brasil de Sousa",
 ]
 
 $( ".btn" ).click(function() {
