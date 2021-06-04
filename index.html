@@ -6,19 +6,34 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     </head>
     <body>
-        <label for="fname">Nome 1</label>
-        <input type="text" id="fname1" name="fname1"><br><br>
-        <label for="fname">Nome2</label>
-        <input type="text" id="fname2" name="fname2"><br><br>
-        <button type="button" class="btn">
-            Calcular
-        </button>
-        <p class="resultado"></p>
-
-        
+        <div class="container">
+            <div class="title">
+                <div id="heart"></div>
+                <h1>Encontre sua alma 
+                    <span class="one">g</span><span class="two">ê</span><span class="three">m</span><span class="one">e</span><span class="two" >a</span>!
+                </h1>
+            </div>
+            <div class="name">
+                <h2>Primeira pessoa</h2>
+                <label for="fname">Nome Completo</label>
+                <input type="text" id="fname1" name="fname1"><br><br>
+            </div>
+            <div class="name">
+                <h2>Segunda pessoa</h2>
+                <label for="fname">Nome Completo</label>
+                <input type="text" id="fname2" name="fname2"><br><br>
+            </div>
+            <button type="button" class="btn">
+                Calcular
+            </button>
+            <img class="spinner" src="spinner.svg"/>
+            <h2 class="resultado"></h2>
+        </div> 
         <script src="index.js" async defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </body>
